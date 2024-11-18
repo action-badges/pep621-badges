@@ -1,0 +1,6 @@
+name: Build
+on: [push, pull_request]
+
+jobs:
+  build:
+    uses: action-badges/shared-workflows/.github/workflows/build.yml@main

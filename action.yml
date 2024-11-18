@@ -1,0 +1,12 @@
+name: 'PEP-621 Action Badges'
+description: 'PEP-621 Action Badges'
+branding:
+  icon: 'info'
+  color: 'blue'
+inputs:
+  integration:
+    description: "One of: 'license', 'version', 'python-version'"
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

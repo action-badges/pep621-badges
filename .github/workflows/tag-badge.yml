@@ -1,0 +1,6 @@
+name: Tag Badge
+on: create
+
+jobs:
+  build:
+    uses: action-badges/shared-workflows/.github/workflows/tag-badge.yml@main
