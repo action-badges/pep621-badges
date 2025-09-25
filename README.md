@@ -26,7 +26,7 @@ jobs:
           branch-name: badges
 
       - name: Make version Badge
-        uses: action-badges/pep621-badges@0.1.0
+        uses: action-badges/pep621-badges@0.2.0
         with:
           file-name: package-version.svg
           badge-branch: badges
@@ -34,7 +34,7 @@ jobs:
           integration: version
 
       - name: Make license badge
-        uses: action-badges/pep621-badges@0.1.0
+        uses: action-badges/pep621-badges@0.2.0
         with:
           file-name: package-license.svg
           badge-branch: badges
@@ -42,7 +42,7 @@ jobs:
           integration: license
 
       - name: Make python version badge
-        uses: action-badges/pep621-badges@0.1.0
+        uses: action-badges/pep621-badges@0.2.0
         with:
           file-name: python-version.svg
           badge-branch: badges
